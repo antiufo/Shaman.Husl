@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0-beta-3604",
+  "compile": [],
+  "projectUrl": "http://shaman.io",
+  "iconUrl": "http://shaman.io/images/shaman-nuget-icon.png",
+  "authors": [
+    "Alexei Boronine",
+    "Andrea Martinelli"
+  ],
+  "description": "Human-friendly HSL",
+  "compilationOptions": {
+    "keyFile": "ShamanOpenSourceKey.snk",
+    "define": [
+      "STANDALONE"
+    ]
+  },
+  "frameworks": {
+    "net45": {
+      "frameworkAssemblies": {
+        "System.Runtime": "4.0.0.0",
+        "System.Drawing": "4.0.0.0"
+      }
+    },
+    "dotnet": {
+      "compilationOptions": {
+        "define": [
+          "CORECLR"
+        ]
+      },
+      "dependencies": {
+        "System.Runtime.Extensions": "4.0.11-beta-23217",
+        "System.IO.FileSystem": "4.0.1-beta-23217",
+        "Shaman.System.Drawing": "1.0.0-beta-4006",
+        "System.Globalization": "4.0.11-beta-23217"
+      }
+    }
+  }
+}
