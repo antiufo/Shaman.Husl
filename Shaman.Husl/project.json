@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-beta-3604",
+  "version": "1.0.1.1",
   "compile": [],
   "projectUrl": "http://shaman.io",
   "iconUrl": "http://shaman.io/images/shaman-nuget-icon.png",
@@ -21,17 +21,17 @@
         "System.Drawing": "4.0.0.0"
       }
     },
-    "dotnet": {
+    "netstandard1.3": {
       "compilationOptions": {
         "define": [
           "CORECLR"
         ]
       },
       "dependencies": {
-        "System.Runtime.Extensions": "4.0.11-beta-23217",
-        "System.IO.FileSystem": "4.0.1-beta-23217",
-        "Shaman.System.Drawing": "1.0.0-beta-4006",
-        "System.Globalization": "4.0.11-beta-23217"
+        "System.Runtime.Extensions": "4.1",
+        "System.IO.FileSystem": "4.0.1",
+        "Shaman.System.Drawing": "1.0.1.1",
+        "System.Globalization": "4.0.11"
       }
     }
   }
